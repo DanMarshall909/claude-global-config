@@ -191,4 +191,4 @@ fi
 
 echo ""
 echo "For latest documentation, see:"
-echo "https://github.com/your-username/claude-global-config"
+echo "https://github.com/DanMarshall909/claude-global-config"

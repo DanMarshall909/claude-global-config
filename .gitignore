@@ -1,0 +1,69 @@
+# Claude Global Config - .gitignore
+
+# Sensitive files - NEVER commit these
+.credentials.json
+*.key
+*.pem
+**/credentials.json
+**/*token*
+**/*password*
+**/*secret*
+
+# Personal configuration files
+config.json
+settings.local.json
+.env
+.env.local
+
+# Project-specific directories
+projects/
+ide/
+shell-snapshots/
+statsig/
+todos/
+
+# Temporary files and directories
+temp/
+*.tmp
+*.temp
+*.log
+*.pid
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor files
+.vscode/settings.json
+.idea/
+*.sublime-*
+
+# Node modules if any JavaScript utilities
+node_modules/
+npm-debug.log*
+
+# Python cache if any Python utilities
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Include template files and documentation
+!templates/
+!docs/
+!scripts/
+!CLAUDE.md
+!README.md
+!*.md
